@@ -11,8 +11,8 @@ for i in range(20):
 	# find the element where we have to
 	# enter the xpath
 	# target mobile number, change it to victim's number and
-	# also ensure that it's registered on flipkart
-	driver.find_element(By.XPATH, '/html/body/div/form[1]/div/div/div[2]/div[1]/div/div/div/div/div[1]/div[3]/div/div/div/div[2]/div[2]/div/input[1]').send_keys("6238578533")
+	# also ensure that it's registered on Microsoft
+	driver.find_element(By.XPATH, '/html/body/div/form[1]/div/div/div[2]/div[1]/div/div/div/div/div[1]/div[3]/div/div/div/div[2]/div[2]/div/input[1]').send_keys("YOUR_PHONE_NUMBER")
 	# driver.find_element_by_xpath('//*[@id="i0116"]').send_keys('6238578533')
 	# find the element continue
 	# request using xpath
@@ -26,7 +26,7 @@ for i in range(20):
 	driver.find_element(By.XPATH, '/html/body/div[1]/div/div/div[2]/div/div[1]/div[2]/div/div[1]/div/div/form/div/div[9]/div/div/div/div[2]/input').click()
 
 	# set the interval to send each sms
-	time.sleep(1)
+	time.sleep(5)
 
 	# Close the browser
 	driver.close()
