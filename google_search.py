@@ -7,7 +7,7 @@ from selenium import webdriver
 # create webdriver object
 driver = webdriver.Chrome()
 
-question = input()
+question = input("Enter Question to be searched")
 url = "https://google.co.in/search?q=" + question
   
 # get google.co.in
